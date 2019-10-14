@@ -24,7 +24,7 @@ global $post, $product;
 ?>
 <?php if ( $product->is_on_sale() ) : ?>
 
-	<?php echo apply_filters( 'woocommerce_sale_flash', '<span class="onsale">' . esc_html__( 'Sale!', 'woocommerce' ) . '</span>', $post, $product ); ?>
+	<?php echo apply_filters( 'woocommerce_sale_flash', '<div class="osale"><img style="width:80px;position:absolute;left:0px" src="http://localhost/direkt2/wp-content/uploads/2019/10/Sale.png"></div>', $post, $product ); ?>
 
 <?php endif;
 

@@ -1,0 +1,93 @@
+<?php //error_reporting(E_ALL); ini_set('display_errors',1);
+include 'config.php';
+mysqlCheck($conn);
+//this function will fetch and process data of ALL events
+function fetchData($conn, $previousLastEventFingerprint){
+        
+    $url = TRONGRID_EVENT_API_URL.LUCKY_ONE_CONTRACT_ADDRESS.'?size=200';
+    
+    if ($previousLastEventFingerprint !== null)
+    {
+        $url .= "&previousLastEventFingerprint=".$previousLastEventFingerprint;
+    }
+    
+    $ch = curl_init();
+    
+    curl_setopt($ch, CURLOPT_URL,$url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    
+    $output = curl_exec($ch);
+    $output = json_decode($output);
+    curl_close ($ch);
+    //print_r($output);
+    //exit;
+    $last = null;
+    foreach ($output as $key => $value) {
+    	//print_r($value->event_name);
+    	
+    	$last = $value;
+    	
+    	if($value->event_name == 'BetFinished'){
+    	    
+     	    $transaction_id = $value->transaction_id;
+        	$user = $value->result->_gambler;
+        	$betHash = $value->result->_betHash;
+        	$randomNumber = $value->result->_randomNumber;
+        	$betTRX = $value->result->_betTRX;
+        	$normalPayout = $value->result->_normalPayout;    	
+        	$jackpotPayout = $value->result->_jackpotPayout;
+        	$profit = $value->result->_profit;
+        	$timestamp = $value->block_timestamp;
+        	
+        echo   $insertSQL  = "Insert into luckyOneBetFinished (txid,betHash,gambler,randomNumber,betTRX, normalPayout, jackpotPayout, profit, timestamp  ) values ('$transaction_id','$betHash','$user','$randomNumber','$betTRX', '$normalPayout', '$jackpotPayout', '$profit', '$timestamp')";
+        	mysqli_query($conn,$insertSQL);
+    	
+    	}
+    	
+    }
+    
+    return $last;
+    
+}
+
+
+
+
+
+for($i=0; $i<2; $i++){
+        
+        
+        
+        /*
+        $lastEvent = fetchData($conn, null);
+        echo "Last event fingerprint is ".$lastEvent->_fingerprint."<br/>";
+        
+        for ($j=0; $j<3; $j++)
+        {
+            usleep(300*1000);
+            $lastEvent = fetchData($conn, $lastEvent->_fingerprint);
+            echo "Last event fingerprint is ".$lastEvent->_fingerprint."<br/>";
+            flush();
+        }
+        
+        echo "<hr/>";
+        sleep(1);
+        */
+        
+        
+        
+        $lastEvent = fetchData($conn, null);
+        echo "Fetched 200 up to fingerprint ".$lastEvent->_fingerprint."<br/>";
+        usleep(250*1000);
+        $lastEvent = fetchData($conn, $lastEvent->_fingerprint);
+        echo "Fetched 200 more up to fingerprint ".$lastEvent->_fingerprint."<br/>";
+        flush();
+        
+        //echo "<br><br>";
+        sleep(4);
+        //mail("yogeshpadsala@gmail.com", "TT test", "rrr");
+    }
+    
+    mysqli_close($conn);
+    
+    ?>

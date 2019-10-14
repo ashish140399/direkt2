@@ -1,0 +1,151 @@
+.rs-container * {
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.rs-container {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 45px;
+    position: relative
+}
+
+.rs-container .rs-bg,
+.rs-container .rs-selected {
+     background-color:#141720;
+    border-radius: 5px;
+    height: 30px;
+    left: 0;
+    position: absolute;
+    top: 5px;
+    width: 100%;
+}
+
+.rs-container .rs-selected {
+  background: linear-gradient(to right, rgba(12,214,207,0.4) 0%,rgba(12,214,207,1) 48%,rgba(12,214,207,0.99) 49%,rgba(12,214,207,0.4) 100%);
+   
+    transition: all .2s linear;
+    width: 0
+}
+
+.rs-container.disabled .rs-selected {
+    background-color: #ccc;
+    border-color: #bbb
+}
+
+.rs-container .rs-pointer {
+     width: 20px;
+    height: 38px;
+    background: url(../images/switch.png) 0 0 no-repeat;
+    background-color: #fff;
+    border-radius: 3px;
+    cursor: default;
+    outline:none;
+
+    left: -10px;
+    position: absolute;
+    top: 0;
+    transition: all .2s linear;
+   
+}
+
+.rs-container.disabled .rs-pointer {
+    border-color: #ccc;
+    cursor: default
+}
+
+.rs-container .rs-pointer::after,
+.rs-container .rs-pointer::before {
+   
+    position: absolute;
+    width: 1px;
+    height: 9px;
+    background-color: #ddd;
+    left: 12px;
+    top: 5px
+}
+
+.rs-container .rs-pointer::after {
+    left: auto;
+    right: 12px
+}
+
+.rs-container.sliding .rs-pointer,
+.rs-container.sliding .rs-selected {
+    transition: none
+}
+
+.rs-container .rs-scale {
+    left: 0;
+    position: absolute;
+    top: 5px;
+    white-space: nowrap
+}
+
+.rs-container .rs-scale span {
+    float: left;
+    position: relative
+}
+
+.rs-container .rs-scale span::before {
+    background-color: #ededed;
+    
+    height: 8px;
+    left: 0;
+    position: absolute;
+    top: 10px;
+    width: 1px
+}
+
+.rs-container.rs-noscale span::before {
+    display: none
+}
+
+.rs-container.rs-noscale span:first-child::before,
+.rs-container.rs-noscale span:last-child::before {
+    display: block
+}
+
+.rs-container .rs-scale span:last-child {
+    margin-left: -1px;
+    width: 0
+}
+
+.rs-container .rs-scale span ins {
+ 
+    display:none;
+}
+
+.rs-container.disabled .rs-scale span ins {
+    color: #999;
+}
+
+.rs-tooltip {position: absolute;
+    transform: translate(-50%, -35px);
+    left: 13px;
+    bottom:40%;
+    padding: 6px 10px 0;
+    border-radius: 6px;
+    background: url(../images/range.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    font-weight: bold;
+    line-height: 80px;
+    font-size: 16px;
+    width: 70px;
+    height: 80px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+
+}
+
+.rs-container.disabled .rs-tooltip {
+    border-color: #ccc;
+    color: #999
+}

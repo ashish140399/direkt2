@@ -1,0 +1,328 @@
+@media(min-width:1451px) and (max-width:1600px){
+	.count-one h6{margin: 0 5px 0 0;}
+	.selct-side li a, .selct-size li a{font-size: 12px;padding: 5px;}
+}
+
+@media(min-width:1351px) and (max-width:1450px){
+	/* **** Profile Page **** */
+	.hed-news h6{font-size: 10px;}
+	.count-one h6{font-size:32px;min-height:50px;width:50px;margin: 0 5px 0 0;padding: 15px 5px;}
+	.ultimate .noUi-tooltip{width: 60px;height: 70px;line-height: 70px;font-size: 22px;}
+	.rang-bx{padding-top: 100px!important;}
+	.ranger-block .col-lg-9,
+	.ranger-block .col-lg-3{padding: 0 5px;}
+	.right-bar{width: 285px;}
+	.main-center-block{padding: 0 310px 0 300px;}
+	.all-information-blok .form-group .main-on h4{font-size: 12px;}
+	.act-active li a{font-size: 10px;padding: 2px 5px;}
+	.selct-side, .selct-size,.all-information-blok .form-group .main-on{padding: 0 5px;}
+	.selct-side li a, .selct-size li a{font-size: 10px;padding: 5px;}
+	.all-information-blok{padding: 15px 15px 10px;}
+	.left-bar{width: 275px !important;}
+	.main-bet h6, .all-information-blok .form-group label{font-size: 12px;}
+	.styled-checkbox + strong:before{margin-right: 3px;}
+	.styled-checkbox + strong:before{width: 15px;height: 15px;}
+	.styled-checkbox:checked + strong:after{left: 3px;top: 7px;}
+	/* **** End Profile Page **** */
+}
+
+@media(min-width:1025px) and (max-width:1350px){
+	/* **** Home Page **** */
+	a.bar-box{display: inline-block;}
+	a.right-chat{display: block;}
+	.left-bar a.close-side{display: block;}
+	.left-bar{left: -340px;}
+	.leftbar-open{left: 0;-webkit-transition: .4s linear;-moz-transition: .4s linear;-ms-transition: .4s linear;transition: .4s linear;}
+	.right-bar{right: -350px;}
+	.rightbar-open{right: 0;-webkit-transition: .4s linear;-moz-transition: .4s linear;-ms-transition: .4s linear;transition: .4s linear;}
+	.main-center-block{padding: 0 15px;}
+	.heading-tilte h1{font-size: 16px;}
+	.heading-tilte h1 img{width:40px;}
+	.enter-bx a{margin: 0;padding: 10px 10px;font-size: 12px;}
+	.ranger-block:after,.all-information-blok:after{background-size: cover;}
+	.rang-bx{padding: 100px 40px 20px;}
+	.noUi-tooltip{width: 45px;height: 45px;font-size: 16px;line-height: 45px;}
+	.main-bet{margin: 0 0 30px;}
+	.beting-wrp{padding: 15px;}
+	.table-bets .head-th p{font-size: 14px;font-weight: 500;word-break: break-all;}
+	.table-bets .head-th h5,.table-bets .head-th h6{word-break: break-all;font-weight: 400;font-size: 14px;}
+	/* **** End Home Page **** */
+
+	/* **** Profile Page **** */
+	.header-bar{padding: 15px 15px;}
+	.profile-nms h6{font-size: 16px;}
+	.profile-nms h6 span{font-size: 14px;}
+	.header-bar a.bar-box{margin: 10px 0 0 ;}
+	.scor-header{margin: 0 0 0;}
+	.hed-news h3{font-size: 20px;}
+	.achivement-wrp{padding: 30px 15px;}
+	.achiv-lst-wrp li{width: 12%;}
+	.achivement-wrp h4{font-weight: 600;}
+	.profile-block{justify-content: center;}
+	.prof-beth{padding: 30px 15px;}
+	/* **** End Profile Page **** */
+}
+
+@media(min-width:992px) and (max-width:1024px){
+	/* **** Home Page **** */
+	a.bar-box{display: inline-block;}
+	a.right-chat{display: block;}
+	.left-bar a.close-side{display: block;}
+	.left-bar{left: -300px;}
+	.leftbar-open{left: 0;-webkit-transition: .4s linear;-moz-transition: .4s linear;-ms-transition: .4s linear;transition: .4s linear;}
+	.right-bar{right: -350px;}
+	.rightbar-open{right: 0;-webkit-transition: .4s linear;-moz-transition: .4s linear;-ms-transition: .4s linear;transition: .4s linear;}
+	.main-center-block{padding: 0 15px;}
+	.heading-tilte h1{font-size: 16px;}
+	.heading-tilte h1 img{width:40px;}
+	.enter-bx a{margin: 0;padding: 10px 10px;font-size: 12px;}
+	.ranger-block:after,.all-information-blok:after{background-size: cover;}
+	.rang-bx{padding: 100px 40px 20px;}
+	.noUi-tooltip{width: 45px;height: 45px;font-size: 16px;line-height: 45px;}
+	.main-bet{margin: 0 0 30px;}
+	.beting-wrp{padding: 15px;}
+	.table-bets .head-th p{font-size: 14px;font-weight: 500;word-break: break-all;}
+	.table-bets .head-th h5,.table-bets .head-th h6{word-break: break-all;font-weight: 400;font-size: 14px;}
+	/* **** End Home Page **** */
+
+	/* **** Profile Page **** */
+	.header-bar{padding: 15px 15px;}
+	.profile-nms h6{font-size: 16px;}
+	.profile-nms h6 span{font-size: 14px;}
+	.header-bar a.bar-box{margin: 10px 0 0 ;}
+	.scor-header{margin: 0 0 0;}
+	.hed-news h3{font-size: 20px;}
+	.achivement-wrp{padding: 30px 15px;}
+	.achiv-lst-wrp li{width: 12%;}
+	.achivement-wrp h4{font-weight: 600;}
+	.profile-block{justify-content: center;}
+	.prof-beth{padding: 30px 15px;}
+	/* **** End Profile Page **** */
+}
+
+@media(min-width:768px) and (max-width:991px){
+	/* **** Home Page **** */
+	a.bar-box{display: inline-block;}
+	a.right-chat{display: block;}
+	.left-bar a.close-side{display: block;}
+	.left-bar{left: -300px;}
+	.leftbar-open{left: 0;-webkit-transition: .4s linear;-moz-transition: .4s linear;-ms-transition: .4s linear;transition: .4s linear;}
+	.right-bar{right: -350px;}
+	.rightbar-open{right: 0;-webkit-transition: .4s linear;-moz-transition: .4s linear;-ms-transition: .4s linear;transition: .4s linear;}
+	.main-center-block{padding: 0 15px;}
+	.heading-tilte h1{font-size: 16px;}
+	.heading-tilte h1 img{width:40px;}
+	.enter-bx a{margin: 0;padding: 10px 10px;font-size: 12px;}
+	.ranger-block:after,.all-information-blok:after{background-size: cover;}
+	.rang-bx{padding: 100px 40px 20px;}
+	.noUi-tooltip{width: 45px;height: 45px;font-size: 16px;line-height: 45px;}
+	.main-bet{margin: 0 0 30px;}
+	.beting-wrp{padding: 15px;}
+	.table-bets .head-th p{font-size: 13px;font-weight: 500;word-break: break-all;}
+	.table-bets .head-th h5,.table-bets .head-th h6{word-break: break-all;font-weight: 400;font-size: 14px;}
+	/* **** End Home Page **** */
+
+	/* **** Profile Page **** */
+	.header-bar{padding: 15px 15px;}
+	.profile-nms h6{font-size: 16px;}
+	.profile-nms h6 span{font-size: 14px;}
+	.header-bar a.bar-box{margin: 10px 0 0 ;}
+	.scor-header{margin: 0 0 0;height: 50px;}
+	.hed-news h6{font-size: 10px;}
+	.hed-news h3{font-size: 20px;}
+	.achivement-wrp{padding: 30px 15px;}
+	.achiv-lst-wrp li{width: 12%;}
+	.achivement-wrp h4{font-weight: 600;}
+	.profile-block{justify-content: center;}
+	.prof-beth{padding: 30px 15px;}
+	.count-one h6{font-size: 42px;min-height: 70px;width: 60px;margin: 0 5px 0 0;}
+	/* **** End Profile Page **** */
+}
+
+@media(min-width:448px) and (max-width:767px){
+	/* **** Home Page **** */
+	a.bar-box{display: inline-block;}
+	a.right-chat{display: block;}
+	.left-bar a.close-side{display: block;}
+	.left-bar{left: -300px;}
+	.leftbar-open{left: 0;-webkit-transition: .4s linear;-moz-transition: .4s linear;-ms-transition: .4s linear;transition: .4s linear;}
+	.right-bar{right: -300px;width: 300px;}
+	.rightbar-open{right: 0;-webkit-transition: .4s linear;-moz-transition: .4s linear;-ms-transition: .4s linear;transition: .4s linear;}
+	.main-center-block{padding: 0 15px;}
+	.heading-tilte h1{font-size: 16px;}
+	.heading-tilte h1 img{width:40px;}
+	.enter-bx a{margin: 0;padding: 10px 10px;font-size: 12px;}
+	.ranger-block:after,.all-information-blok:after{background-size: cover;}
+	.rang-bx{padding: 100px 30px 20px;}
+	.noUi-tooltip{width: 45px;height: 45px;font-size: 16px;line-height: 45px;}
+	.main-bet{margin: 0 0 30px;}
+	.beting-wrp{padding: 15px;}
+	.table-bets .head-th p{font-size: 12px;font-weight: 400;word-break: break-all;}
+	.table-bets .head-th h5,.table-bets .head-th h6{word-break: break-all;font-weight: 400;font-size: 12px;}
+	.count-one{margin: 20px auto 0;}
+	.count-one h6{font-size:52px;min-height:90px;width:75px;margin: 0 10px 0 0;}
+	/* **** End Home Page **** */
+
+	/* **** Popups **** */
+	.info-select{margin: 0 0 15px;}
+	.modal-dialog{width: 100%;}
+	.invite-wrps h1{font-size: 16px;}
+	.invite-wrps p{width: 100%;}
+	.refrel-wrp:before{background-size: cover;}
+	.progress-report-block h4{text-align: center;line-height: 24px;}
+	.progress-report-block h4 strong{float: none;display: block;}
+	.progress-bx .progress-bar{background-size: 100% 100%;margin: 0;}
+	.withdrv-div{margin: 0 0 30px;}
+	.divi-step h3{text-align: center;line-height: 24px;}
+	.divi-step h3 strong{float: none;display: block;}
+	.refrel-pro .progress-bx .progress{width: 58%;}
+	.refrel-pro .progress-bx .icnbxon{width: 10%;}
+	.up-re{width: 22%;}
+	#pls-login .modal-dialog{width: 100%;}
+	/* **** End Popups **** */
+
+	/* **** How to Play **** */
+	.howtoplay-data{padding: 30px 15px;}
+	/* **** End How to Play **** */
+
+	/* **** Profile Page **** */
+	.header-bar{padding: 15px 15px;}
+	.profile-nms h6{font-size: 16px;}
+	.profile-nms h6 span{font-size: 14px;}
+	.header-bar a.bar-box{margin: 10px 0 0 ;}
+	.scor-header{margin: 20px 0 0;height: 50px;}
+	.hed-news h6{font-size: 10px;}
+	.hed-news h3{font-size: 20px;}
+	.achivement-wrp{padding: 30px 15px;}
+	.achiv-lst-wrp li{width: 19%;}
+	.achivement-wrp h4{font-weight: 600;}
+	.profile-block{justify-content: center;}
+	/* **** End Profile Page **** */
+
+	.shw-blk{display: none;}
+	.hdn-blk{display: block;}
+	.table-bets .head-th{padding: 10px 0;}
+	.beting-wrp .nav-tabs li{
+	    display: block;
+	    margin: 0 auto;
+	}
+	.rang-bx {
+        padding: 100px 40px 20px 30px;
+    }
+    .count-right{margin: 20px auto 0;}
+    .ultimate-dc .row{display: flex;flex-flow: column;}
+	div#oneon {order:2;}
+	div#twoon {order:1;}
+}
+
+@media(max-width:447px){
+	/* **** Home Page **** */
+	a.bar-box{display: inline-block;}
+	a.right-chat{display: block;}
+	.left-bar a.close-side{display: block;}
+	.left-bar{left: -300px;}
+	.leftbar-open{left: 0;-webkit-transition: .4s linear;-moz-transition: .4s linear;-ms-transition: .4s linear;transition: .4s linear;}
+	.right-bar{right: -300px;width: 300px;}
+	.rightbar-open{right: 0;-webkit-transition: .4s linear;-moz-transition: .4s linear;-ms-transition: .4s linear;transition: .4s linear;}
+	.main-center-block{padding: 0 15px;}
+	.heading-tilte h1{font-size: 13px; width: 80%;vertical-align: middle;line-height: 22px;}
+	.heading-tilte h1 img{width:40px;}
+	.enter-bx a{margin: 0;padding: 10px 5px;font-size: 10px;}
+	.enter-bx a i{margin-right: 5px;}
+	.ranger-block:after,.all-information-blok:after{background-size: cover;}
+	.rang-bx{padding: 100px 40px 20px 30px;}
+	.noUi-tooltip{width: 45px;height: 45px;font-size: 16px;line-height: 45px;}
+	.main-bet{margin: 0 0 30px;}
+	.beting-wrp{padding: 15px;}
+	.table-bets .head-th p{font-size: 11px;font-weight: 400;word-break: break-all;}
+	.table-bets .head-th h5,.table-bets .head-th h6{word-break: break-all;font-weight: 400;font-size: 12px;}
+	.selct-side li a, .selct-size li a{font-size: 12px;padding: 5px;}
+	.info-select{margin: 0 0 15px;}
+	.refrel-wrp .form-group .form-control{text-align: left;padding: 15px 100px 15px 15px;}
+	/*new*/
+	.progress-bx .progress{width: 78%;}
+	.progress-bx .icnbxon img{padding: 8px 5px;}
+	.dowl h6{font-size: 12px;}
+	.odometer.odometer-auto-theme, .odometer.odometer-theme-car{font-size: 42px;}
+	header .row{}
+	header .col-xs-4,
+	header .col-xs-8{padding: 0 5px;}
+
+	.count-right,
+	.count-one{margin:0px auto 0;}
+	.dice-number{padding:10px 0;}
+	.count-one h3{font-size: 12px;font-weight:500;margin: 0 0 10px;}
+	.count-one h6{font-size:36px;min-height:65px;width:55px;margin: 0 10px 0 0;padding:15px 10px !important;}
+	.odometer.odometer-auto-theme, .odometer.odometer-theme-car {font-size:26px;padding: 10px !important;}
+	.ranhe-number{padding: 40px 35px 15px;margin: 0 0 15px;}
+	.all-information-blok{padding: 15px;}
+	.main-bet h6, .all-information-blok .form-group label{margin: 0 0 5px;font-size: 12px;}
+	.all-information-blok .form-group .form-control{padding: 10px 15px;}
+	.all-information-blok .form-group span{bottom: 7px;}
+	.all-information-blok .form-group .main-on h4{line-height: 40px;}
+	.all-information-blok .form-group .main-on{height: 40px;}
+	.act-active li a:after{bottom: -13px;}
+	.act-active li{margin-top: 3px;}
+	.all-information-blok .form-group{margin: 0 0 15px;}
+	/* **** End Home Page **** */
+
+	/* **** Ultimate Dice Page **** */
+	.ranger-block{padding: 15px;}
+	.ultimate .noUi-tooltip {
+		line-height: 48px;
+		font-size: 18px;
+		width: 50px;
+		height: 50px;
+	}
+	.rang-bx {padding-top: 100px !important;}
+	.sound{right: 15px;top: 15px;}
+	.roll-btn .roin{margin: 10px 0 0;}
+	/* **** End Ultimate Dice Page **** */
+
+	/* **** Popups **** */
+	.modal-dialog{width: 100%;}
+	.invite-wrps h1{font-size: 16px;}
+	.invite-wrps p{width: 100%;}
+	.refrel-wrp:before{background-size: cover;}
+	.progress-report-block h4{text-align: center;line-height: 24px;}
+	.progress-report-block h4 strong{float: none;display: block;}
+	.progress-bx .progress-bar{background-size: 100% 100%;margin: 0;}
+	.withdrv-div{margin: 0 0 30px;}
+	.divi-step h3{text-align: center;line-height: 24px;}
+	.divi-step h3 strong{float: none;display: block;}
+	.refrel-pro .progress-bx .progress{width: 52%;}
+	.refrel-pro .progress-bx .icnbxon{width: 10%;}
+	.up-re{width: 28%;}
+	#pls-login .modal-dialog{width: 100%;}
+	/* **** End Popups **** */
+
+	/* **** How to Play **** */
+	.howtoplay-data{padding: 30px 15px;}
+	/* **** End How to Play **** */
+
+	/* **** Profile Page **** */
+	.header-bar{padding: 15px 15px;}
+	.profile-nms h6{font-size: 16px;}
+	.profile-nms h6 span{font-size: 14px;}
+	.header-bar a.bar-box{margin: 10px 0 0 ;}
+	.scor-header{margin: 20px 0 0;height: 50px;}
+	.hed-news h6{font-size: 10px;}
+	.hed-news h3{font-size: 20px;}
+	.achivement-wrp{padding: 30px 15px;}
+	.achiv-lst-wrp li{width: 19%;}
+	.profile-block{justify-content: center;}
+	.achivement-wrp h4{font-weight: 600;}
+	/* **** End Profile Page **** */
+
+	.shw-blk{display: none;}
+	.hdn-blk{display: block;}
+	.table-bets .head-th{padding: 10px 0;}
+	.beting-wrp .nav-tabs li{
+	    display: block;
+	    margin: 0 auto;
+	}
+	
+	.ultimate-dc .row{display: flex;flex-flow: column;}
+	div#oneon {order:2;}
+	div#twoon {order:1;}
+}

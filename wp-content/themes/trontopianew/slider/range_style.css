@@ -1,0 +1,20 @@
+.ui-slider .ui-slider-handle {
+    height: 1.7em;
+}
+
+.ui-widget-content {
+    background: #ff006c;
+}
+
+.ui-slider-horizontal {
+    height: 1.6em;
+}
+
+.ui-slider-horizontal {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.ui-widget-header {
+    background: #01f593;
+}

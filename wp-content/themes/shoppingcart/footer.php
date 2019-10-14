@@ -52,8 +52,38 @@ $footer_column = $shoppingcart_settings['shoppingcart_footer_column_section'];
 		</div><!-- end .wrap -->
 	</div> <!-- end .widget-wrap -->
 	<?php } ?>
-	<div class="site-info">
-	<div class="wrap">
+	<div class="site-info" style="background-color: #242B37">
+		<div class="wrap">
+			<div class="footer_last">
+				<div class="footer_b_left">
+					Copyright &2018 <span>Patrick Butke & USV-Direkt.</span>All Rights Reserved
+				</div> 
+				<div class="footer_b_right">
+					<a href=""  target="_blank">
+						<i class="fab fa-facebook"></i>		
+					</a>
+					<a href="" target="_blank">
+						<i class="fab fa-twitter"></i>
+					</a>
+					<a href="" target="_blank">
+						<i class="fab fa-instagram"></i>				
+					</a>
+					<a href=""  target="_blank">
+						<i class="fab fa-linkedin"></i>		
+					</a>
+					<a href=""  target="_blank">
+						<i class="fab fa-behance"></i>	
+					</a>
+				</div>
+			</div>
+		</div>
+
+		
+
+
+
+
+	<!--div class="wrap">
 	<?php do_action('shoppingcart_footer_menu');
 	if($shoppingcart_settings['shoppingcart_buttom_social_icons'] == 0):
 		do_action('shoppingcart_social_links');
@@ -69,7 +99,7 @@ $footer_column = $shoppingcart_settings['shoppingcart_footer_column_section'];
 					</div>
 	<?php endif; ?>
 			<div style="clear:both;"></div>
-		</div> <!-- end .wrap -->
+		</div--> <!-- end .wrap -->
 	</div> <!-- end .site-info -->
 	<?php
 		$disable_scroll = $shoppingcart_settings['shoppingcart_scroll'];
@@ -88,3 +118,8 @@ $footer_column = $shoppingcart_settings['shoppingcart_footer_column_section'];
 <?php wp_footer(); ?>
 </body>
 </html>
+  <script>
+	$(document).ready(function(){
+  $(".add_to_cart_button").html("<img src='http://localhost/direkt2/wp-content/uploads/2019/10/shopping-cart.png'>");
+});
+</script>

@@ -1,0 +1,12 @@
+1. The design fof icons in footer can be changed in the file given below
+	wp-content > themes > shoppingcart > footer > [footer social icons]
+
+2. The design in footer can be chaned in the file given below
+	wp-content > themes > shoppingcart > footer > [footer credit]
+
+3.Added some code in wc-template-functions.php on line 1121 for shop home page text
+
+4. Change in flash-sale.php on line 27
+
+5. changed in form-checkout.php on  line 39 (changed the slass of column)
+

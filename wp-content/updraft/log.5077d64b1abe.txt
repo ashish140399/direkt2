@@ -1,0 +1,348 @@
+0000.001 (0) Opened log file at time: Sun, 13 Oct 2019 06:33:44 +0000 on http://localhost/direkt2
+0000.008 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.17 WP: 5.2.3 PHP: 7.2.18 (apache2handler, Windows NT DESKTOP-I026UPS 10.0 build 18362 (Windows 10) AMD64) MySQL: 5.7.26 WPLANG: en_US Server: Apache/2.4.39 (Win64) PHP/7.2.18 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 9.1M | 4M) multisite: N openssl: OpenSSL 1.1.1b  26 Feb 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.012 (0) Free space on disk containing Updraft's temporary directory: 28614.8 MB
+0000.022 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.028 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.101 (0) Set semaphore last lock (fd) time to 2019-10-13 06:33:44
+0000.105 (0) Semaphore lock (fd) complete
+0000.117 (0) Backup run: resumption=0, nonce=5077d64b1abe, file_nonce=5077d64b1abe begun at=1570948424 (0s ago), job type=backup
+0000.123 (0) Scheduling a resumption (1) after 300 seconds (1570948724) in case this run gets aborted
+0000.136 (0) Checking if we have a zip executable available
+0000.143 (0) Creation of backups of directories: beginning
+0000.156 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0008.380 (0) Total entities for the zip file: 788 directories, 4864 files (0 skipped as non-modified), 91.5 MB
+0008.398 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0008.671 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 100 files added (on-disk size: 136 KB)
+0008.798 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 200 files added (on-disk size: 136 KB)
+0008.963 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 300 files added (on-disk size: 136 KB)
+0009.088 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 400 files added (on-disk size: 136 KB)
+0009.200 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 500 files added (on-disk size: 136 KB)
+0009.206 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (12.9 MB, 4864 files batched, 501 (502) added so far); re-opening (prior size: 136 KB)
+0013.309 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 600 files added (on-disk size: 4414.9 KB)
+0013.403 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 700 files added (on-disk size: 4414.9 KB)
+0013.501 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 800 files added (on-disk size: 4414.9 KB)
+0013.604 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 900 files added (on-disk size: 4414.9 KB)
+0013.706 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 1000 files added (on-disk size: 4414.9 KB)
+0013.712 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (23.4 MB, 4864 files batched, 501 (1003) added so far); re-opening (prior size: 4414.9 KB)
+0017.630 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 1100 files added (on-disk size: 8076.9 KB)
+0017.788 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 1200 files added (on-disk size: 8076.9 KB)
+0017.891 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 1300 files added (on-disk size: 8076.9 KB)
+0018.056 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 1400 files added (on-disk size: 8076.9 KB)
+0018.187 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 1500 files added (on-disk size: 8076.9 KB)
+0018.195 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (17.6 MB, 4864 files batched, 501 (1504) added so far); re-opening (prior size: 8076.9 KB)
+0022.226 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 1600 files added (on-disk size: 13053 KB)
+0022.325 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 1700 files added (on-disk size: 13053 KB)
+0022.426 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 1800 files added (on-disk size: 13053 KB)
+0022.605 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 1900 files added (on-disk size: 13053 KB)
+0022.771 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 2000 files added (on-disk size: 13053 KB)
+0022.781 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.8 MB, 4864 files batched, 501 (2005) added so far); re-opening (prior size: 13053 KB)
+0024.174 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 2100 files added (on-disk size: 13758.2 KB)
+0024.295 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 2200 files added (on-disk size: 13758.2 KB)
+0024.407 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 2300 files added (on-disk size: 13758.2 KB)
+0024.525 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 2400 files added (on-disk size: 13758.2 KB)
+0024.632 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 2500 files added (on-disk size: 13758.2 KB)
+0024.647 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (8.3 MB, 4864 files batched, 501 (2506) added so far); re-opening (prior size: 13758.2 KB)
+0026.964 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 2600 files added (on-disk size: 15460.5 KB)
+0027.091 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 2700 files added (on-disk size: 15460.5 KB)
+0027.247 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 2800 files added (on-disk size: 15460.5 KB)
+0027.376 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 2900 files added (on-disk size: 15460.5 KB)
+0027.505 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 3000 files added (on-disk size: 15460.5 KB)
+0027.514 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.7 MB, 4864 files batched, 501 (3007) added so far); re-opening (prior size: 15460.5 KB)
+0030.672 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 3100 files added (on-disk size: 17146.9 KB)
+0030.802 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 3200 files added (on-disk size: 17146.9 KB)
+0030.934 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 3300 files added (on-disk size: 17146.9 KB)
+0031.140 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 3400 files added (on-disk size: 17146.9 KB)
+0031.388 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 3500 files added (on-disk size: 17146.9 KB)
+0031.401 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4 MB, 4864 files batched, 501 (3508) added so far); re-opening (prior size: 17146.9 KB)
+0034.034 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 3600 files added (on-disk size: 18451.3 KB)
+0034.165 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 3700 files added (on-disk size: 18451.3 KB)
+0034.306 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 3800 files added (on-disk size: 18451.3 KB)
+0034.445 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 3900 files added (on-disk size: 18451.3 KB)
+0034.569 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 4000 files added (on-disk size: 18451.3 KB)
+0034.581 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.5 MB, 4864 files batched, 501 (4009) added so far); re-opening (prior size: 18451.3 KB)
+0038.149 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 4100 files added (on-disk size: 20138.1 KB)
+0038.270 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 4200 files added (on-disk size: 20138.1 KB)
+0038.366 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 4300 files added (on-disk size: 20138.1 KB)
+0038.456 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 4400 files added (on-disk size: 20138.1 KB)
+0038.544 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 4500 files added (on-disk size: 20138.1 KB)
+0038.555 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.6 MB, 4864 files batched, 501 (4510) added so far); re-opening (prior size: 20138.1 KB)
+0042.075 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 4600 files added (on-disk size: 22120.9 KB)
+0042.227 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 4700 files added (on-disk size: 22120.9 KB)
+0042.358 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip.tmp: 4800 files added (on-disk size: 22120.9 KB)
+0047.026 (0) Created plugins zip (0) - 24998 KB in 46.9 s (533.6 KB/s) (sha1: 44c83f8fbcef2c094057353270b754b2b8d5b778, sha256: 40786e076ed090347b075c5b5fbab38f46b9dad3149457f706c2b59fe48c2fed)
+0047.045 (0) Beginning creation of dump of themes (split every: 400 MB)
+0047.649 (0) Total entities for the zip file: 70 directories, 273 files (0 skipped as non-modified), 5.2 MB
+0047.782 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0047.885 (0) Zip: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0049.821 (0) Created themes zip (0) - 3230.6 KB in 2.8 s (1171.7 KB/s) (sha1: b8b57b7a5083350c6ab0d19644f681a6f77b3d15, sha256: 9ca9869951035fc76d59202afad3315427bc567107a44899bf3964d80e8cedf0)
+0049.846 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0049.851 (0) Looking for candidates to backup in: D:\wamp64\www\direkt2/wp-content/uploads
+0049.858 (0) finding files: 2019: adding to list (1)
+0049.863 (0) finding files: elementor: adding to list (2)
+0049.867 (0) finding files: GeoLite2-Country.mmdb: adding to list (3)
+0049.870 (0) finding files: maxmegamenu: adding to list (4)
+0049.874 (0) finding files: wc-logs: adding to list (5)
+0049.878 (0) finding files: woocommerce-placeholder-100x100.png: adding to list (6)
+0049.882 (0) finding files: woocommerce-placeholder-1024x1024.png: adding to list (7)
+0049.885 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (8)
+0049.889 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (9)
+0049.893 (0) finding files: woocommerce-placeholder-400x200.png: adding to list (10)
+0049.898 (0) finding files: woocommerce-placeholder-420x420.png: adding to list (11)
+0049.906 (0) finding files: woocommerce-placeholder-512x512.png: adding to list (12)
+0049.909 (0) finding files: woocommerce-placeholder-600x600.png: adding to list (13)
+0049.913 (0) finding files: woocommerce-placeholder-75x75.png: adding to list (14)
+0049.917 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (15)
+0049.920 (0) finding files: woocommerce-placeholder.png: adding to list (16)
+0049.925 (0) finding files: woocommerce_uploads: adding to list (17)
+0049.929 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0050.111 (0) Total entities for the zip file: 7 directories, 80 files (0 skipped as non-modified), 10 MB
+0062.413 (0) Created uploads zip (0) - 8287.8 KB in 12.5 s (665.2 KB/s) (sha1: 3ccc81fce6086cad04b678ffb6bfcc58df223636, sha256: f4d439cf2a2214f2ff1fa90d492c17647417c382a46c641a76b3dfffe936605d)
+0062.452 (0) Beginning backup of other directories found in the content directory (index: 0)
+0062.456 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0062.460 (0) Looking for candidates to backup in: D:\wamp64\www\direkt2/wp-content
+0062.466 (0) finding files: index.php: adding to list (1)
+0062.471 (0) finding files: plugins: skipping: this is the plugins directory
+0062.475 (0) finding files: themes: skipping: this is the themes directory
+0062.479 (0) finding files: updraft: skipping: this is the updraft directory
+0062.483 (0) finding files: upgrade: skipping: excluded by options
+0062.489 (0) finding files: uploads: skipping: this is the uploads directory
+0062.492 (0) finding files: wptouch-data: adding to list (2)
+0062.539 (0) Total entities for the zip file: 12 directories, 4 files (0 skipped as non-modified), 0.3 MB
+0062.698 (0) Created others zip (0) - 72.1 KB in 0.2 s (386.8 KB/s) (sha1: d9484393d578f3802030f3f0659147ea2f05b734, sha256: 8ae97c7dbf213259ed9081f9aff715c4a7321a204441bb0ea78f179b9976b9cf)
+0062.725 (0) Saving backup status to database (elements: 8)
+0062.739 (0) Beginning creation of database dump (WordPress DB)
+0063.212 (0) Table wp_options: Total expected rows (approximate): 504
+0063.348 (0) Table wp_options: Total rows added: 500 in 0.13 seconds
+0063.354 (0) Table wp_options: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_options.table.gz - 85.1 KB)
+0063.390 (0) Table wp_users: Total expected rows (approximate): 1
+0063.401 (0) Table wp_users: Total rows added: 1 in 0.01 seconds
+0063.407 (0) Table wp_users: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_users.table.gz - 0.6 KB)
+0063.426 (0) Table wp_usermeta: Total expected rows (approximate): 30
+0063.439 (0) Table wp_usermeta: Total rows added: 30 in 0.01 seconds
+0063.445 (0) Table wp_usermeta: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_usermeta.table.gz - 1.6 KB)
+0063.468 (0) Table wp_commentmeta: Total expected rows (approximate): 5
+0063.486 (0) Table wp_commentmeta: Total rows added: 5 in 0.01 seconds
+0063.492 (0) Table wp_commentmeta: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0063.508 (0) Table wp_comments: Total expected rows (approximate): 141
+0063.589 (0) Table wp_comments: Total rows added: 141 in 0.08 seconds
+0063.595 (0) Table wp_comments: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_comments.table.gz - 2.2 KB)
+0063.616 (0) Table wp_links: Total expected rows (approximate): 0
+0063.626 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0063.630 (0) Table wp_links: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_links.table.gz - 0.4 KB)
+0063.648 (0) Table wp_postmeta: Total expected rows (approximate): 939
+0063.736 (0) Table wp_postmeta: Total rows added: 939 in 0.08 seconds
+0063.742 (0) Table wp_postmeta: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_postmeta.table.gz - 15.6 KB)
+0063.759 (0) Table wp_posts: Total expected rows (approximate): 377
+0064.090 (0) Table wp_posts: Total rows added: 377 in 0.33 seconds
+0064.094 (0) Table wp_posts: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_posts.table.gz - 32 KB)
+0064.111 (0) Table wp_term_relationships: Total expected rows (approximate): 61
+0064.123 (0) Table wp_term_relationships: Total rows added: 61 in 0.01 seconds
+0064.128 (0) Table wp_term_relationships: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_term_relationships.table.gz - 0.5 KB)
+0064.146 (0) Table wp_term_taxonomy: Total expected rows (approximate): 18
+0064.156 (0) Table wp_term_taxonomy: Total rows added: 18 in 0.01 seconds
+0064.161 (0) Table wp_term_taxonomy: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_term_taxonomy.table.gz - 0.6 KB)
+0064.179 (0) Table wp_termmeta: Total expected rows (approximate): 2
+0064.188 (0) Table wp_termmeta: Total rows added: 2 in 0.01 seconds
+0064.193 (0) Table wp_termmeta: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_termmeta.table.gz - 0.4 KB)
+0064.210 (0) Table wp_terms: Total expected rows (approximate): 18
+0064.221 (0) Table wp_terms: Total rows added: 18 in 0.01 seconds
+0064.227 (0) Table wp_terms: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_terms.table.gz - 0.6 KB)
+0064.248 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 1
+0064.258 (0) Table wp_wc_category_lookup: Total rows added: 1 in 0.00 seconds
+0064.263 (0) Table wp_wc_category_lookup: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_wc_category_lookup.table.gz - 0.3 KB)
+0064.284 (0) Table wp_wc_product_meta_lookup: Total expected rows (approximate): 2
+0064.293 (0) Table wp_wc_product_meta_lookup: Total rows added: 2 in 0.01 seconds
+0064.298 (0) Table wp_wc_product_meta_lookup: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_wc_product_meta_lookup.table.gz - 0.5 KB)
+0064.315 (0) Table wp_wc_tax_rate_classes: Total expected rows (approximate): 2
+0064.323 (0) Table wp_wc_tax_rate_classes: Total rows added: 2 in 0.00 seconds
+0064.328 (0) Table wp_wc_tax_rate_classes: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_wc_tax_rate_classes.table.gz - 0.4 KB)
+0064.348 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (approximate): 0
+0064.355 (0) Table wp_woocommerce_order_itemmeta: Total rows added: 0 in 0.00 seconds
+0064.360 (0) Table wp_woocommerce_order_itemmeta: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_woocommerce_order_itemmeta.table.gz - 0.4 KB)
+0064.378 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0064.385 (0) Table wp_woocommerce_payment_tokenmeta: Total rows added: 0 in 0.00 seconds
+0064.390 (0) Table wp_woocommerce_payment_tokenmeta: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0064.410 (0) Table wp_wc_admin_note_actions: Total expected rows (approximate): 3
+0064.421 (0) Table wp_wc_admin_note_actions: Total rows added: 3 in 0.01 seconds
+0064.426 (0) Table wp_wc_admin_note_actions: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_wc_admin_note_actions.table.gz - 0.5 KB)
+0064.446 (0) Table wp_wc_admin_notes: Total expected rows (approximate): 3
+0064.457 (0) Table wp_wc_admin_notes: Total rows added: 3 in 0.01 seconds
+0064.462 (0) Table wp_wc_admin_notes: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_wc_admin_notes.table.gz - 0.9 KB)
+0064.481 (0) Table wp_wc_customer_lookup: Total expected rows (approximate): 0
+0064.491 (0) Table wp_wc_customer_lookup: Total rows added: 0 in 0.01 seconds
+0064.496 (0) Table wp_wc_customer_lookup: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_wc_customer_lookup.table.gz - 0.5 KB)
+0064.515 (0) Table wp_wc_download_log: Total expected rows (approximate): 0
+0064.524 (0) Table wp_wc_download_log: Total rows added: 0 in 0.00 seconds
+0064.531 (0) Table wp_wc_download_log: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_wc_download_log.table.gz - 0.4 KB)
+0064.555 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0064.563 (0) Table wp_wc_order_coupon_lookup: Total rows added: 0 in 0.00 seconds
+0064.568 (0) Table wp_wc_order_coupon_lookup: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_wc_order_coupon_lookup.table.gz - 0.4 KB)
+0064.585 (0) Table wp_wc_order_product_lookup: Total expected rows (approximate): 0
+0064.593 (0) Table wp_wc_order_product_lookup: Total rows added: 0 in 0.00 seconds
+0064.598 (0) Table wp_wc_order_product_lookup: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_wc_order_product_lookup.table.gz - 0.4 KB)
+0064.616 (0) Table wp_wc_order_stats: Total expected rows (approximate): 0
+0064.625 (0) Table wp_wc_order_stats: Total rows added: 0 in 0.00 seconds
+0064.631 (0) Table wp_wc_order_stats: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_wc_order_stats.table.gz - 0.5 KB)
+0064.652 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0064.661 (0) Table wp_wc_order_tax_lookup: Total rows added: 0 in 0.00 seconds
+0064.666 (0) Table wp_wc_order_tax_lookup: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_wc_order_tax_lookup.table.gz - 0.4 KB)
+0064.687 (0) Table wp_wc_webhooks: Total expected rows (approximate): 0
+0064.696 (0) Table wp_wc_webhooks: Total rows added: 0 in 0.00 seconds
+0064.702 (0) Table wp_wc_webhooks: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_wc_webhooks.table.gz - 0.5 KB)
+0064.733 (0) Table wp_woocommerce_api_keys: Total expected rows (approximate): 0
+0064.742 (0) Table wp_woocommerce_api_keys: Total rows added: 0 in 0.00 seconds
+0064.747 (0) Table wp_woocommerce_api_keys: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_woocommerce_api_keys.table.gz - 0.4 KB)
+0064.768 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0064.776 (0) Table wp_woocommerce_attribute_taxonomies: Total rows added: 0 in 0.00 seconds
+0064.781 (0) Table wp_woocommerce_attribute_taxonomies: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_woocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+0064.799 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0064.809 (0) Table wp_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.01 seconds
+0064.814 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0064.836 (0) Table wp_woocommerce_log: Total expected rows (approximate): 0
+0064.844 (0) Table wp_woocommerce_log: Total rows added: 0 in 0.00 seconds
+0064.849 (0) Table wp_woocommerce_log: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_woocommerce_log.table.gz - 0.4 KB)
+0064.869 (0) Table wp_woocommerce_order_items: Total expected rows (approximate): 0
+0064.880 (0) Table wp_woocommerce_order_items: Total rows added: 0 in 0.00 seconds
+0064.886 (0) Table wp_woocommerce_order_items: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_woocommerce_order_items.table.gz - 0.4 KB)
+0064.908 (0) Table wp_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0064.918 (0) Table wp_woocommerce_payment_tokens: Total rows added: 0 in 0.01 seconds
+0064.925 (0) Table wp_woocommerce_payment_tokens: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_woocommerce_payment_tokens.table.gz - 0.4 KB)
+0064.948 (0) Table wp_woocommerce_sessions: Total expected rows (approximate): 1
+0064.956 (0) Table wp_woocommerce_sessions: Total rows added: 1 in 0.00 seconds
+0064.961 (0) Table wp_woocommerce_sessions: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_woocommerce_sessions.table.gz - 1.1 KB)
+0064.979 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0064.987 (0) Table wp_woocommerce_shipping_zone_locations: Total rows added: 0 in 0.00 seconds
+0064.992 (0) Table wp_woocommerce_shipping_zone_locations: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0065.012 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0065.020 (0) Table wp_woocommerce_shipping_zone_methods: Total rows added: 0 in 0.00 seconds
+0065.026 (0) Table wp_woocommerce_shipping_zone_methods: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0065.043 (0) Table wp_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0065.051 (0) Table wp_woocommerce_shipping_zones: Total rows added: 0 in 0.00 seconds
+0065.056 (0) Table wp_woocommerce_shipping_zones: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_woocommerce_shipping_zones.table.gz - 0.3 KB)
+0065.076 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0065.083 (0) Table wp_woocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+0065.088 (0) Table wp_woocommerce_tax_rate_locations: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_woocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0065.108 (0) Table wp_woocommerce_tax_rates: Total expected rows (approximate): 0
+0065.117 (0) Table wp_woocommerce_tax_rates: Total rows added: 0 in 0.00 seconds
+0065.121 (0) Table wp_woocommerce_tax_rates: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_woocommerce_tax_rates.table.gz - 0.4 KB)
+0065.139 (0) Table wp_yith_wcwl: Total expected rows (approximate): 1
+0065.147 (0) Table wp_yith_wcwl: Total rows added: 1 in 0.00 seconds
+0065.152 (0) Table wp_yith_wcwl: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_yith_wcwl.table.gz - 0.4 KB)
+0065.169 (0) Table wp_yith_wcwl_lists: Total expected rows (approximate): 1
+0065.178 (0) Table wp_yith_wcwl_lists: Total rows added: 1 in 0.00 seconds
+0065.183 (0) Table wp_yith_wcwl_lists: finishing file (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_yith_wcwl_lists.table.gz - 0.5 KB)
+0065.199 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_options.table.gz (1/40): adding to final database dump
+0065.268 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_users.table.gz (2/40): adding to final database dump
+0065.273 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_usermeta.table.gz (3/40): adding to final database dump
+0065.280 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_commentmeta.table.gz (4/40): adding to final database dump
+0065.287 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_comments.table.gz (5/40): adding to final database dump
+0065.297 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_links.table.gz (6/40): adding to final database dump
+0065.302 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_postmeta.table.gz (7/40): adding to final database dump
+0065.327 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_posts.table.gz (8/40): adding to final database dump
+0065.360 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_term_relationships.table.gz (9/40): adding to final database dump
+0065.365 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_term_taxonomy.table.gz (10/40): adding to final database dump
+0065.370 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_termmeta.table.gz (11/40): adding to final database dump
+0065.376 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_terms.table.gz (12/40): adding to final database dump
+0065.382 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_wc_category_lookup.table.gz (13/40): adding to final database dump
+0065.387 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_wc_product_meta_lookup.table.gz (14/40): adding to final database dump
+0065.392 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_wc_tax_rate_classes.table.gz (15/40): adding to final database dump
+0065.398 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_woocommerce_order_itemmeta.table.gz (16/40): adding to final database dump
+0065.403 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_woocommerce_payment_tokenmeta.table.gz (17/40): adding to final database dump
+0065.408 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_wc_admin_note_actions.table.gz (18/40): adding to final database dump
+0065.413 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_wc_admin_notes.table.gz (19/40): adding to final database dump
+0065.418 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_wc_customer_lookup.table.gz (20/40): adding to final database dump
+0065.423 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_wc_download_log.table.gz (21/40): adding to final database dump
+0065.428 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_wc_order_coupon_lookup.table.gz (22/40): adding to final database dump
+0065.432 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_wc_order_product_lookup.table.gz (23/40): adding to final database dump
+0065.438 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_wc_order_stats.table.gz (24/40): adding to final database dump
+0065.442 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_wc_order_tax_lookup.table.gz (25/40): adding to final database dump
+0065.448 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_wc_webhooks.table.gz (26/40): adding to final database dump
+0065.454 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_woocommerce_api_keys.table.gz (27/40): adding to final database dump
+0065.459 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_woocommerce_attribute_taxonomies.table.gz (28/40): adding to final database dump
+0065.464 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (29/40): adding to final database dump
+0065.469 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_woocommerce_log.table.gz (30/40): adding to final database dump
+0065.475 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_woocommerce_order_items.table.gz (31/40): adding to final database dump
+0065.481 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_woocommerce_payment_tokens.table.gz (32/40): adding to final database dump
+0065.486 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_woocommerce_sessions.table.gz (33/40): adding to final database dump
+0065.492 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_woocommerce_shipping_zone_locations.table.gz (34/40): adding to final database dump
+0065.498 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_woocommerce_shipping_zone_methods.table.gz (35/40): adding to final database dump
+0065.502 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_woocommerce_shipping_zones.table.gz (36/40): adding to final database dump
+0065.508 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_woocommerce_tax_rate_locations.table.gz (37/40): adding to final database dump
+0065.512 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_woocommerce_tax_rates.table.gz (38/40): adding to final database dump
+0065.516 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_yith_wcwl.table.gz (39/40): adding to final database dump
+0065.521 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db-table-wp_yith_wcwl_lists.table.gz (40/40): adding to final database dump
+0065.531 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db.gz: finished writing out complete database file (128 KB)
+0065.564 (0) Total database tables backed up: 40 (backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db.gz, size: 145418, sha1: 6d60b3d2c56ef2553935b45c8b4257257668e6ab, sha256: 992e894289b05c05a85a1215b8af560631cf0a981cd155fe88b71317d42e5199)
+0065.592 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0065.596 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0065.601 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0065.606 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-others.zip: others: This file has not yet been successfully uploaded: will queue
+0065.610 (0) backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db.gz: db: This file has not yet been successfully uploaded: will queue
+0065.614 (0) Saving backup history. Total backup size: 35.9 MB
+0065.628 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0065.641 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0065.645 (0) No remote despatch: user chose no remote backup service
+0065.649 (0) Recording as successfully uploaded: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-plugins.zip
+0065.658 (0) Recording as successfully uploaded: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-themes.zip
+0065.667 (0) Recording as successfully uploaded: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-uploads.zip
+0065.674 (0) Recording as successfully uploaded: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-others.zip
+0065.683 (0) Recording as successfully uploaded: backup_2019-10-13-0633_USV_DIREKT_5077d64b1abe-db.gz
+0065.695 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0065.702 (0) Number of backup sets in history: 5; groups (db): 1
+0065.705 (0) Examining (for databases) backup set with group_id=0, nonce=5077d64b1abe, datestamp=1570948424 (Oct 13 2019 06:33:44)
+0065.709 (0) This backup set is the backup set just made, so will not be deleted.
+0065.709 (0) Examining (for databases) backup set with group_id=0, nonce=68af5586a68d, datestamp=1570904357 (Oct 12 2019 18:19:17)
+0065.710 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0065.714 (0) Examining (for databases) backup set with group_id=0, nonce=325f8b9b6d05, datestamp=1570851919 (Oct 12 2019 03:45:19)
+0065.714 (0) 1570851919: db: this set includes a database (backup_2019-10-12-0345_USV_DIREKT_325f8b9b6d05-db.gz); db count is now 2
+0065.714 (0) 1570851919: db: over retain limit (2); will delete this database
+0065.714 (0) Delete file: backup_2019-10-12-0345_USV_DIREKT_325f8b9b6d05-db.gz, service=none
+0065.718 (0) Deleting local copy (backup_2019-10-12-0345_USV_DIREKT_325f8b9b6d05-db.gz)
+0065.804 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0065.808 (0) Examining (for databases) backup set with group_id=0, nonce=658a6b2dc159, datestamp=1570760443 (Oct 11 2019 02:20:43)
+0065.809 (0) This backup set (1570760443) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0065.809 (0) Examining (for databases) backup set with group_id=0, nonce=70be532c91f9, datestamp=1570760397 (Oct 11 2019 02:19:57)
+0065.809 (0) This backup set (1570760397) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0065.809 (0) Number of backup sets in history: 5; groups (files): 1
+0065.814 (0) Examining (for files) backup set with nonce=5077d64b1abe, datestamp=1570948424 (Oct 13 2019 06:33:44)
+0065.814 (0) This backup set is the backup set just made, so will not be deleted.
+0065.818 (0) This backup set is the backup set just made, so will not be deleted.
+0065.819 (0) This backup set is the backup set just made, so will not be deleted.
+0065.820 (0) This backup set is the backup set just made, so will not be deleted.
+0065.822 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0065.825 (0) Examining (for files) backup set with nonce=68af5586a68d, datestamp=1570904357 (Oct 12 2019 18:19:17)
+0065.825 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0065.827 (0) Examining (for files) backup set with nonce=325f8b9b6d05, datestamp=1570851919 (Oct 12 2019 03:45:19)
+0065.827 (0) plugins: over retain limit (2); will delete this file entity
+0065.827 (0) themes: over retain limit (2); will delete this file entity
+0065.827 (0) uploads: over retain limit (2); will delete this file entity
+0065.827 (0) others: over retain limit (2); will delete this file entity
+0065.827 (0) Delete file: backup_2019-10-12-0345_USV_DIREKT_325f8b9b6d05-plugins.zip, service=none
+0065.831 (0) Deleting local copy (backup_2019-10-12-0345_USV_DIREKT_325f8b9b6d05-plugins.zip)
+0065.835 (0) Delete file: backup_2019-10-12-0345_USV_DIREKT_325f8b9b6d05-themes.zip, service=none
+0065.840 (0) Deleting local copy (backup_2019-10-12-0345_USV_DIREKT_325f8b9b6d05-themes.zip)
+0065.844 (0) Delete file: backup_2019-10-12-0345_USV_DIREKT_325f8b9b6d05-uploads.zip, service=none
+0065.849 (0) Deleting local copy (backup_2019-10-12-0345_USV_DIREKT_325f8b9b6d05-uploads.zip)
+0065.853 (0) Delete file: backup_2019-10-12-0345_USV_DIREKT_325f8b9b6d05-others.zip, service=none
+0065.859 (0) Deleting local copy (backup_2019-10-12-0345_USV_DIREKT_325f8b9b6d05-others.zip)
+0065.867 (0) This backup set is now empty; will remove from history
+0065.871 (0) Deleting log file (log.325f8b9b6d05.txt)
+0065.876 (0) Examining (for files) backup set with nonce=658a6b2dc159, datestamp=1570760443 (Oct 11 2019 02:20:43)
+0065.876 (0) This backup set (1570760443) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0065.877 (0) This backup set (1570760443) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0065.877 (0) This backup set (1570760443) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0065.877 (0) This backup set (1570760443) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0065.877 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0065.882 (0) Examining (for files) backup set with nonce=70be532c91f9, datestamp=1570760397 (Oct 11 2019 02:19:57)
+0065.882 (0) This backup set (1570760397) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0065.882 (0) This backup set (1570760397) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0065.882 (0) This backup set (1570760397) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0065.882 (0) This backup set (1570760397) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0065.882 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0065.884 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0065.895 (0) Resume backup (5077d64b1abe, 0): finish run
+0065.902 (0) Decremented the semaphore (fd) by 1
+0065.907 (0) Semaphore (fd) unlocked
+0065.911 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0065.924 (0) No email will/can be sent - the user has not configured an email address.
+0065.929 (0) The backup apparently succeeded and is now complete

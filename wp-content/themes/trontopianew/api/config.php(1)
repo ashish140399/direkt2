@@ -1,0 +1,39 @@
+<?php 
+//database config
+
+/*
+//system default localhost server
+define('DB_HOST','localhost');
+define('DB_USER','trontopiaMainUser');
+define('DB_PASS','TronTopiaIsComing4###');
+define('DB_NAME','trontopiaco');
+*/
+
+
+//google SQL server
+define('DB_HOST','35.192.60.107');
+define('DB_USER','trontopiaMain');
+define('DB_PASS','TronTopiaIsComing4###');
+define('DB_NAME','trontopia_main_DB');
+
+
+/*
+define('GAME_CONTRACT_ADDRESS','TXhEiYXHyr6sKkyiurHaUcrm3Q2zA9Vo4f');
+define('TOKEN_CONTRACT_ADDRESS','TT517qPTDjmHnqomWNGVkKPo93Ky6qidiv');
+define('TRONGRID_API_URL','https://api.trongrid.io/event/');
+*/
+//main net 
+define('GAME_CONTRACT_ADDRESS','TSpqAutnkHFYSu3C2CBLoVUH6mixF86N7q');
+define('TOKEN_CONTRACT_ADDRESS','TQf2hZ8gzVnUnCGKNSBoLxiERdNQLkEiNh');
+define('TRONGRID_EVENT_API_URL','https://api.trongrid.io/event/contract/');
+define('TRONEX_EVENT_API_URL','https://api.tronex.io/events/');
+
+
+$conn = mysqli_connect(DB_HOST,DB_USER, DB_PASS,DB_NAME);
+// Check connection
+if (mysqli_connect_errno()){
+  	echo "Failed to connect to MySQL: " . mysqli_connect_error();
+ }
+
+
+?>

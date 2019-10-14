@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+.duration_name{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	color: #0CD6CF;
+}
+.site_logo{
+	width: 118px; height: 50px;margin-top: 32px
+}
+.duration_detail{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 26px;
+	letter-spacing: 0.02em;
+	color: #ffffff;
+}
+
+.duration_subdetail{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 26px;
+	letter-spacing: 0.02em;
+	color: #99A2B8;
+}
+
+.bullet_outer{
+	background-color:  #0CD6CF;
+	box-shadow: 0px 4px 4px rgba(28, 33, 45, 0.46);
+	width:7px;
+	height: 7px;
+	display: inline-block;
+	border-radius: 4px;
+	position: absolute;margin: 7px;
+
+
+}
+
+.bullet_inner{
+	background: linear-gradient(224.06deg, #5FFFF9 13.15%, #0CD6CF 85.79%);
+	display: inline-block;
+	width: 21px;height: 21px;
+	border-radius: 50%;
+	-webkit-animation: pulsate 1s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0
+}
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+    50% {opacity: 0.4;}
+    100% {-webkit-transform: scale(1.3, 1.2); opacity: 0.0;}
+}
+.month_name_outer{
+	transform: rotate(-90deg);
+	display:inline-block;
+	margin-left:24px;
+	transform-origin:bottom left;
+}
+.new_bullet_outer{
+	position: absolute;
+	width: 21px;height: 21px;
+	top: -3px;
+	left: 5px;
+
+}
+.month_bullet{
+	position: relative;
+	margin-right: 21px;
+	margin-top: 0;
+}
+
+.month_name{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	letter-spacing: 0.235em;
+}
+.month_name span{
+	transform:translateX(-50%);
+	left:50%;
+	position:absolute
+}
+
+.longstick{
+	border: 2px solid #0CD6CF;
+	width: 26px;
+	margin-top: 24px;
+	display:inline-block;
+	box-shadow: 0px 1px 26px rgba(12, 214, 207, 0.9);
+}
+.smallstick{
+	opacity: 0.3;
+	border: 1px solid #0CD6CF;
+	width: 16px;
+	margin-top: 24px;
+	margin-left:10px
+}
+.small_left_stick{
+	opacity: 0.3;
+	border: 1px solid #0CD6CF;
+	width: 16px;
+	margin-top: 24px
+}
+.body_margin{
+	margin: 0% 10% 5% 10%;
+}
+.month1{
+	margin-top: 34px;
+}
+.month2{
+	margin-top: 81px;
+}
+.month3{
+	margin-top: 64px;
+}
+.month4{
+	margin-top: 34px;
+}
+.middle_col{
+	color: #0CD6CF;
+	background-image: radial-gradient( rgba(12, 214, 207, 0.065) 0%, rgba(12, 214, 207, 0.02) 30%, rgba(12, 214, 207, 0) 100%);
+}
+
+@media only screen and (max-width: 768px) {
+	.body_margin{
+		margin: 0% 5% 5% 5%;
+	}
+	.month_name_outer{
+		margin-left:16px;
+	}
+	.month_name{
+		font-size: 12px;
+	}
+	.duration_name{
+		font-size: 16px
+	}
+	.duration_detail{
+		font-size: 14px;
+	}
+	.duration_subdetail{
+		font-size: 14px;
+	}
+	.site_logo{
+	width: 100px; height: 42px;margin-top: 32px
+	}
+	.month_bullet{
+		margin-right: 15px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.body_margin{
+		margin: 0% 5% 5% 5%;
+	}
+	.month_name_outer{
+		margin-left:0px;
+	}
+	.month_name{
+		font-size: 10px;
+	}
+	.duration_name{
+		font-size: 14px
+	}
+	.duration_detail{
+		font-size: 12px;
+	}
+	.duration_subdetail{
+		font-size: 12px;
+	}
+	.longstick{width: 22px}
+	.smallstick{width: 12px;margin-left: 10px;}
+	.small_left_stick{width: 12px}
+	.month1, .month2, .month3, .month4 {
+	margin-top: 34px;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.body_margin{
+		margin: 0% 2% 5% 2%;
+	}
+	.longstick{width: 16px}
+	.smallstick{width: 10px;margin-left: 6px;}
+	.small_left_stick{width: 10px}
+	.month_name{
+		font-size: 10px;
+	}
+	.duration_name{
+		font-size: 12px
+	}
+	.duration_detail{
+		font-size: 11px;
+	}
+	.duration_subdetail{
+		font-size: 11px;
+	}
+ }

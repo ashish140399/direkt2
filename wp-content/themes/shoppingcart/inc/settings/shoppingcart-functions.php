@@ -152,7 +152,7 @@ function shoppingcart_scripts() {
 	);
 	wp_enqueue_script( 'shoppingcart-slider' );
 	if( $shoppingcart_settings['shoppingcart_responsive'] == 'on' ) {
-		wp_enqueue_style('shoppingcart-responsive', get_template_directory_uri().'/css/responsive.css');
+		wp_enqueue_style('shoppingcart-responsive', get_template_directory_uri().'/css/responsive.css','','5.5.6');
 	}
 	$shoppingcart_googlefont = array();
 	array_push( $shoppingcart_googlefont, 'Roboto');
